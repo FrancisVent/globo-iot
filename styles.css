@@ -40,7 +40,7 @@ canvas {
     border-radius: 999px;
     display: inline-flex;
     align-items: center;
-    padding: clamp(0px, 1.6vw, 10px) clamp(0px, 1vw, 6px);
+    padding: clamp(0px, 1.6vw, 10px) clamp(0px, 1vw, 2px);
     box-shadow: 0 6px 18px rgba(0,0,0,0.35);
     backdrop-filter: blur(4px);
     border: 1px solid rgba(104,104,104,0.8);
