@@ -140,7 +140,7 @@ canvas {
 }
 
 #info-box {
-    position: absolute; top: 50%; right: 12%; transform: translateY(-50%);
+    position: absolute; top: 50%; right: 20%; transform: translateY(-50%);
     z-index: 15; padding: 20px; color: #fff;
     text-align: centlefter; width: 200px;
 }
@@ -244,8 +244,8 @@ canvas {
 }
 
 #multiwasher-image img {
-    max-width: 80vw;
-    max-height: 80vh;
+    max-width: 90vw;
+    max-height: 90vh;
     width: auto;
     height: auto;
     display: block;
