@@ -283,7 +283,8 @@ document.addEventListener('DOMContentLoaded', () => {
   // Wire up events
   const toggleContainer = document.getElementById('toggle-container');
   if (toggleContainer) {
-    const inputs = toggleContainer.querySelectorAll('.toggle-input');
+    // radios are outside the visual toggle container, so select them from document
+    const inputs = document.querySelectorAll('.toggle-input');
     inputs.forEach(i => i.addEventListener('change', updateToggleSlider));
     window.addEventListener('resize', updateToggleSlider);
     // initial call after DOM paints
