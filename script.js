@@ -166,7 +166,7 @@ function createRadialGradientTexture() {
 function initializeChart() {
   const ctx = document.getElementById('machineChart').getContext('2d');
   const data = {
-    labels: ['EUROPA', 'AMÉRICA', 'ÁFRICA', 'ÁSIA', 'Oceânia'],
+    labels: ['EUROPE', 'AMERICA', 'AFRICA', 'ASIA', 'OCEANIA'],
     datasets: [{
       data: [73.5, 17.9, 0.5, 7.1, 1.0],
       backgroundColor: [
@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
     playBtn.addEventListener('click', () => {
       const isRotatingBtn = window.isGlobeRotating;
       window.isGlobeRotating = !isRotatingBtn;
-      playBtn.innerHTML = window.isGlobeRotating ? 'Pausar Rotação' : 'Iniciar Rotação';
+      playBtn.innerHTML = window.isGlobeRotating ? 'PAUSE' : 'ROTATE';
     });
   }
 
@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
       // Restart rotation
       window.isGlobeRotating = true;
-      playBtn.innerHTML = 'Pausar Rotação';
+      playBtn.innerHTML = 'PAUSE';
     });
   }
 
